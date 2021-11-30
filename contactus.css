@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* navbar style */
+}
+.topnav{
+    background-color:rgb(90, 10, 3);
+    width:100%;
+    height: 80px;
+    top:0;
+    left:0;
+    position:fixed;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    z-index:999;
+}
+.topnav a {
+    float:right;
+    color:white;
+    text-align: center;
+    padding: 10px 5px 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color:white
+}
+.topnav-right{
+    float:right;
+}
+#topnav{
+    padding-left:55px;
+    color:white
+}
+.topnav .active{
+    border-bottom: 3px solid white;
+}
+ 
+
+.p{
+    background-color: rgba(83, 79, 79, 0.247);
+    height: 260px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    margin-left: 30px;
+    margin-top: 50px;
+    /* padding-top: 20px; */
+    
+}
+.toors h1{
+    color:rgb(90, 10, 3);;
+    font-size:64px;
+    text-align: center;
+    padding-top: 100px;
+}
+.contact{
+    
+    background-image: url("./images/hotel.jpeg");
+    /* background-color: rgba(0, 0, 0, 0.274); */
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 160vh;
+     
+}
+.detail h2{
+    font-size: 35px;
+    color: rgb(58, 2, 2);
+}
+
+.detail{
+text-align: center;
+
+margin-top: 150px;
+border:2px solid black;
+width: 500px;
+height: 530px;
+/* text-align: center; */
+background-color:rgba(255, 255, 255, 0.342);
+/* background-color: rgba(0, 0, 0, 0.274); */
+background-repeat: no-repeat;
+margin-left: 500px;
+border-width:5px;
+border-radius: 15px;
+}
+.rwanda{
+    background-color: rgba(0, 0, 0, 0.418);
+    height: 160vh;
+}
+input{
+    width: 200px;
+    height: 2vh;
+    border: 2px solid black;
+}
+textarea{
+    width:230px ;
+    height: 20vh;
+    border: 2px solid black;
+}
+.message{
+    float: right;
+    text-decoration: underline;
+    color: rgb(53, 3, 3);
+    margin-top: 170px;
+}
+.names label{
+    margin-left: 5px;
+    padding: 10px;
+    float: left;
+}
+.names input{
+float: right;
+width: 40%;
+padding: 10px;
+margin-right: 130px;
+}
